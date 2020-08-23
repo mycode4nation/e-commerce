@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products | RedStore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" alt="" width="125px" />
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account </a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px" />
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+    </div>
+
+
+    <!-- Featured-product -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by Price</option>
+                <option>Short by Popularity</option>
+                <option>Short by rating</option>
+                <option>Short by Sale</option>
+
+            </select>
+        </div>
+
+        <!-- Single product details -->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/gallery-1.jpg" class="small-img" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-2.jpg" class="small-img" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-3.jpg" class="small-img" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-4.jpg" class="small-img" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / T-Shirt</p>
+                    <h1>Red Print T-Shirt By Roihan</h1>
+                    <h4>$500</h4>
+                    <select>
+                        <option value="">Select Size</option>
+                        <option value="">XXL</option>
+                        <option value="">XL</option>
+                        <option value="">Large</option>
+                        <option value="">Medium</option>
+                        <option value="">Small</option>
+                    </select>
+                    <input type="number"/>
+                    <a href="http://" class="btn">Add to Cart</a>
+                    <h3>Product Details <i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod officiis 
+                        officia perferendis animi</p>
+                </div>
+            </div>
+        </div>
+        <!-- title -->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>
+                    Raleted Product
+                </h2>
+                <p>View More</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="" />
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="" />
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="" />
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="" />
+                <h4>Red Printed T-Shirt</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+
+
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>
+                        Download for Android and Iphone Mobile
+                    </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" />
+                        <img src="images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" />
+                    <p>
+                        Our purpose is sustainable make the pleasure and benefits of
+                        sports accessible to Many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter/li></li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright 2020 - RedStores</p>
+        </div>
+    </div>
+    <!-- Js Togle Menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+  <!-- js for product gallery  -->
+
+  <script>
+        var product  = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+         SmallImg[0].onclick =function(){
+             product.src = SmallImg[0].src
+         } 
+         SmallImg[1].onclick =function(){
+            product.src = SmallImg[1].src
+        } 
+        SmallImg[2].onclick =function(){
+            product.src = SmallImg[2].src
+        } 
+        SmallImg[3].onclick =function(){
+            product.src = SmallImg[3].src
+        } 
+        SmallImg[4].onclick =function(){
+            product.src = SmallImg[4].src
+        } 
+  </script>
+</body>
+
+</html>
